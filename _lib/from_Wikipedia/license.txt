@@ -1,0 +1,31 @@
+
+https://en.wikipedia.org/wiki/Operational_amplifier_applications
+...
+Original third-party files in this directory were obtained from the above sources.
+
+...
+File and directory names labeled with 'orig' in their names, listed above, or under the 'orig' subdirectory, retain their original licenses, as stated below, unless public domain or fair use.
+
+...
+File and directory names labeled with 'mod' in their names, listed above, or under the 'mod' subdirectory, are modified versions of the original files, and also retain the original license, as stated below, unless public domain or fair use.
+
+...
+In the absense of any license explictly stated here or any prior license, files under this directory are then intended to be public domain.
+
+-
+http://creativecommons.org/publicdomain/zero/1.0/
+To the extent possible under law, mirage335 has waived all copyright and related or neighboring rights to, unless explicitly stated otherwise in this file or copyrighted by other authors, all files in this folder and subfolder. This work is published from: United States.
+Also see CC0_license.txt for details.
+-
+
+
+_Creative Commons Attribution-ShareAlike 3.0 Unported License_
+Relevant files as declared above, obtained under 'Creative Commons Attribution-ShareAlike 3.0 Unported' license. This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.
+
+https://en.wikipedia.org
+http://creativecommons.org/licenses/by-sa/3.0/
+
+
+
+Notably, GPLv3 may NOT be compatible with this license.
+

@@ -1,0 +1,27 @@
+"13				100-problemSolversGuide
+48					100-problemSolversGuide-errata
+50				170-cognitionSplicer
+60					170-cognitionSplicer-errata
+67				140-neuralBits
+79					140-neuralBits-errata
+93				155-mechDive
+98					155-mechDive-errata
+105				190-CARDinal
+117					190-CARDinal-errata
+129				195-lithoDive
+144					195-lithoDive-errata
+156				150-positionTrackers
+160				175-sleeveDive
+167					175-sleeveDive-errata
+169				199-cryogenicComputer
+174					199-cryogenicComputer-errata
+177				199-flightDeck
+178				199-toys
+179				180-modularAI
+180				181-motivation
+182					181-motivation-errata
+183				185-memoryRegeneration
+186					185-memoryRegeneration-errata
+187				201-copyright
+"
+
