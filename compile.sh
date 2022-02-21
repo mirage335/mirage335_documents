@@ -32,7 +32,7 @@ _ub_cksum_special_derivativeScripts_contents() {
 #export ub_setScriptChecksum_disable='true'
 ( [[ -e "$0".nck ]] || [[ "${BASH_SOURCE[0]}" != "${0}" ]] || [[ "$1" == '--profile' ]] || [[ "$1" == '--script' ]] || [[ "$1" == '--call' ]] || [[ "$1" == '--return' ]] || [[ "$1" == '--devenv' ]] || [[ "$1" == '--shell' ]] || [[ "$1" == '--bypass' ]] || [[ "$1" == '--parent' ]] || [[ "$1" == '--embed' ]] || [[ "$1" == '--compressed' ]] || [[ "$0" == "/bin/bash" ]] || [[ "$0" == "-bash" ]] || [[ "$0" == "/usr/bin/bash" ]] || [[ "$0" == "bash" ]] ) && export ub_setScriptChecksum_disable='true'
 export ub_setScriptChecksum_header='1891409836'
-export ub_setScriptChecksum_contents='2627764544'
+export ub_setScriptChecksum_contents='134819777'
 
 # CAUTION: Symlinks may cause problems. Disable this test for such cases if necessary.
 # WARNING: Performance may be crucial here.
@@ -6069,20 +6069,53 @@ CZXWXcRMTo8EmM8i4d
 _generate_compile_bash_prog() {
 	"$scriptAbsoluteLocation" _true
 	
-	return
+	#return
 	
 	rm "$scriptAbsoluteFolder"/ubiquitous_bash.sh
 	
 	#"$scriptAbsoluteLocation" _compile_bash cautossh cautossh
 	#"$scriptAbsoluteLocation" _compile_bash lean lean.sh
 	
-	"$scriptAbsoluteLocation" _compile_bash core ubiquitous_bash.sh
+	"$scriptAbsoluteLocation" _compile_bash consolidate ubiquitous_bash.sh
 	
 	#"$scriptAbsoluteLocation" _compile_bash "" ""
 	#"$scriptAbsoluteLocation" _compile_bash ubiquitous_bash ubiquitous_bash.sh
 	
 	#"$scriptAbsoluteLocation" _package
 }
+
+
+# Temporarily disable. Backend 'qualculate' may suffice, and should preferably be called directly
+_test_devgnuoctave() {
+	true
+}
+
+# Temporarily partly disable. Should not urgently need 'gnuplot' .
+_test_devqalculate() {
+	_wantGetDep qalculate-gtk
+	_wantGetDep qalculate
+	
+	_wantGetDep qalc
+	
+	##! _typeShare 'texmf/tex/latex/gnuplot/gnuplot.cfg' && _wantGetDep gnuplot-data
+	##! _typeShare 'texmf/tex/latex/gnuplot/gnuplot.cfg' && echo 'warn: missing: gnuplot-data'
+	
+	#_wantGetDep gnuplot-data
+	#_wantGetDep gnuplot-x11
+	##_wantGetDep gnuplot-qt
+	
+	##_wantGetDep gnuplot
+	
+	! _typeDep qalculate-gtk && echo 'warn: missing: qalculate-gtk'
+	
+	return 0
+}
+
+# Temporarily disable.
+_test_mktorrent() {
+	true
+}
+
 
 #Default is to include all, or run a specified configuration. For this reason, it will be more typical to override this entire function, rather than append any additional code.
 _compile_bash_deps() {
@@ -7161,11 +7194,93 @@ _compile_bash_deps_prog() {
 
 #Default is to include all, or run a specified configuration. For this reason, it will be more typical to override this entire function, rather than append any additional code.
 # WARNING Find current version of this function at "build/bash/compile_bash.sh"
-# _compile_bash_deps() {
-# 	[[ "$1" == "lean" ]] && return 0
-# 	
-# 	false
-# }
+_compile_bash_deps() {
+	if [[ "$1" == "consolidate" ]]
+	then
+		#_deps_dev_heavy
+		_deps_dev
+		
+		#_deps_cloud_heavy
+		
+		
+		
+		_deps_mount
+		
+		_deps_notLean
+		_deps_os_x11
+		
+		_deps_java
+		
+		
+		_deps_x11
+		_deps_image
+		
+		_deps_virt
+		#_deps_virt_thick
+		
+		#_deps_chroot
+		#_deps_qemu
+		#_deps_vbox
+		#_deps_docker
+		_deps_wine
+		#_deps_dosbox
+		#_deps_msw
+		_deps_fakehome
+		_deps_abstractfs
+		
+		_deps_calculators
+		
+		_deps_channel
+		
+		#_deps_queue
+		_deps_metaengine
+		
+		_deps_git
+		_deps_bup
+		#_deps_repo
+		
+		_deps_search
+		
+		#_deps_cloud
+		#_deps_cloud_self
+		#_deps_cloud_build
+		
+		_deps_distro
+		
+		#_deps_blockchain
+		
+		#_deps_command
+		#_deps_synergy
+		
+		#_deps_hardware
+		#_deps_x220t
+		#_deps_peripherial
+		
+		#_deps_user
+		
+		#_deps_proxy
+		#_deps_proxy_special
+		
+		# WARNING: Linux *kernel* admin assistance *only*. NOT any other UNIX like features.
+		# WARNING: Beware Linux shortcut specific dependency programs must not be required, or will break other operating systems!
+		# ie. _test_linux must not require Linux-only binaries
+		_deps_linux
+		
+		_deps_stopwatch
+		
+		_deps_disc
+		
+		_deps_build
+		
+		_deps_build_bash
+		_deps_build_bash_ubiquitous
+		
+		return 0
+	fi
+	
+	
+	false
+}
 
 _vars_compile_bash_prog() {
 	#export configDir="$scriptAbsoluteFolder"/_config

@@ -2,3 +2,23 @@
 	path = _lib/ubiquitous_bash
 	url = git@github.com:mirage335/ubiquitous_bash.git
 	shallow = true
+[submodule "_lib/universalTechnologySpecificationTextbook"]
+	path = _lib/universalTechnologySpecificationTextbook
+	url = git@github.com:mirage335/universalTechnologySpecificationTextbook.git
+	shallow = true
+[submodule "_lib/mirage335_author"]
+	path = _lib/mirage335_author
+	url = git@github.com:mirage335/mirage335_author.git
+	shallow = true
+[submodule "_lib/PatchRap"]
+	path = _lib/PatchRap
+	url = git@github.com:mirage335/PatchRap.git
+	shallow = true
+[submodule "_lib/extendedInterface"]
+	path = _lib/extendedInterface
+	url = git@github.com:mirage335/extendedInterface.git
+	shallow = true
+[submodule "_lib/CoreAutoSSH"]
+	path = _lib/CoreAutoSSH
+	url = git@github.com:mirage335/CoreAutoSSH.git
+	shallow = true
