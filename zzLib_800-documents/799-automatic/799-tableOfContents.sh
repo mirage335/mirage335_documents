@@ -33,76 +33,7 @@
 _document_collect() {
 # NOTICE: COLLECT
 
-_findConsolidate_procedure() {
-	local current_consolidateScriptFilename
-	current_consolidateScriptFilename="$2"
-	[[ "$current_consolidateScriptFilename" == "" ]] && current_consolidateScriptFilename='consolidateVariables.sh'
-	
-	[[ "$ub_findConsolidate_maxheight" -gt "120" ]] && return 1
-	let ub_findConsolidate_maxheight="$ub_findConsolidate_maxheight"+1
-	export ub_findConsolidate_maxheight
-	
-	if [[ -e ./"$current_consolidateScriptFilename" ]]
-	then
-		_getAbsoluteLocation ./"$current_consolidateScriptFilename"
-		#_getAbsoluteFolder ./"$current_consolidateScriptFilename"
-		return 0
-	fi
-	
-	[[ "$1" == "/" ]] && return 1
-	
-	! cd .. > /dev/null 2>&1 && return 1
-	
-	_findConsolidate_procedure "$@"
-}
-_findConsolidate() {
-	local localFunctionEntryPWD
-	localFunctionEntryPWD="$PWD"
-	
-	cd "$1"
-	
-	_findConsolidate_procedure "$@"
-	
-	cd "$localFunctionEntryPWD"
-}
-export current_consolidateVariables_script=$(_findConsolidate "$scriptAbsoluteFolder")
-( [[ "$current_consolidateVariables_script" == "" ]] || [[ ! -e "$current_consolidateVariables_script" ]] ) && exit 1
-
-#source <( "$scriptAbsoluteFolder"/./../?????/?????.sh )
-source <( "$current_consolidateVariables_script" )
-
-#$zzLib_800_documents="$current_consolidateVariables_script"
-#$zzLib_895_reference
-
-
-source <( "$current_consolidateVariables_script" )
-
-
-
-
-
-
-
-export fromDocuments_boilerplateDisclaimer=$(cat "$zzLib_800_documents_____boilerplate_____disclaimer")
-
-
-
-export fromSelfFolder_something_pseudocode=$(cat "$scriptLib"/something_pseudocode.cpp 2>/dev/null)
-
-export fromSelfFolder_errata=$(cat "$scriptLib"/REVIEW-errata.txt 2>/dev/null)
-
 export fromSelfFolder_toc=$(cat "$scriptLib"/tableOfContents.txt 2>/dev/null)
-
-
-
-
-
-
-
-
-
-
-
 
 
 # NOTICE: COLLECT

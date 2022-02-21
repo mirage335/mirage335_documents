@@ -1,31 +1,41 @@
-[0;37;100mDISCLAIMER: Plausible concepts, attributed sources, oversimplifications, resonably. Rigorous mere academia NOT primary.[0m
+
 
 _ Table of Contents _
-13				100-problemSolversGuide
-48					100-problemSolversGuide-errata
-50				170-cognitionSplicer
-60					170-cognitionSplicer-errata
-67				140-neuralBits
-79					140-neuralBits-errata
-93				155-mechDive
-98					155-mechDive-errata
-105				190-CARDinal
-117					190-CARDinal-errata
-129				195-lithoDive
-144					195-lithoDive-errata
-156				150-positionTrackers
-160				175-sleeveDive
-167					175-sleeveDive-errata
-169				199-cryogenicComputer
-174					199-cryogenicComputer-errata
-177				199-flightDeck
-178				199-toys
-179				180-modularAI
-180				181-motivation
-182					181-motivation-errata
-183				185-memoryRegeneration
-186					185-memoryRegeneration-errata
-187				201-copyright
+1				uTST-README
+6				uTST-200-preface
+17				uTST-100-problemSolversGuide
+52					uTST-100-problemSolversGuide-errata
+54				uTST-170-cognitionSplicer
+64					uTST-170-cognitionSplicer-errata
+71				uTST-140-neuralBits
+83					uTST-140-neuralBits-errata
+97				uTST-155-mechDive
+102					uTST-155-mechDive-errata
+109				uTST-190-CARDinal
+121					uTST-190-CARDinal-errata
+133				uTST-195-lithoDive
+148					uTST-195-lithoDive-errata
+160				uTST-150-positionTrackers
+164				uTST-175-sleeveDive
+171					uTST-175-sleeveDive-errata
+173				uTST-199-cryogenicComputer
+178					uTST-199-cryogenicComputer-errata
+181				uTST-199-flightDeck
+182				uTST-199-toys
+183				uTST-180-modularAI
+184				uTST-181-motivation
+186					uTST-181-motivation-errata
+187				uTST-185-memoryRegeneration
+190					uTST-185-memoryRegeneration-errata
+191				uTST-201-copyright
+198				ubiquitous_bash-README
+209				netDoc
+218				extendedInterface-commonControlScheme
+219				extendedInterface-referenceImplementations
+225				design-numbering
+227				PatchRap
+239				mirage335-recruiting
+265				mirage335-biography
 
 
 

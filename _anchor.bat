@@ -643,7 +643,7 @@ export anchorScriptAbsoluteFolder=$(_getScriptAbsoluteFolder)
 export anchorName=$(basename "$anchorScriptAbsoluteLocation" | sed 's/\.bat$//g')
 
 
-export anchorSourceDir="ubiquitous_bash"
+export anchorSourceDir="mirage335_documents"
 export anchorSource="ubiquitous_bash.sh"
 export anchorSourcePath="$anchorSourceDir"/"$anchorSource"
 
@@ -1162,7 +1162,7 @@ REM SET "MSWanchorName=%iMSWaN:~0,-4%"
 SET "MSWanchorName=%~n0"
 
 REM Typically set automatically by '_anchor' function.
-SET "MSWanchorSourceDir=ubiquitous_bash"
+SET "MSWanchorSourceDir=mirage335_documents"
 
 SET "MSWanchorSource=lean.sh"
 
