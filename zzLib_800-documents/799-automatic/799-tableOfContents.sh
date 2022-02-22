@@ -47,7 +47,8 @@ _document_main() {
 # NOTICE: DOCUMENT
 #__HEADER_uk4uPhB663kVcygT0q_HEADER__
 _ _o date --iso-8601
-_o_ _safeEcho_newline "$fromDocuments_boilerplateDisclaimer"
+_o_ _safeEcho_newline 'DISCLAIMER: Plausible concepts, attributed sources, oversimplifications, resonably. Rigorous mere academia NOT primary.'
+_ _o_ _safeEcho_newline "$fromDocuments_boilerplateDisclaimer"
 _ _v "$fromDocuments_boilerplateDisclaimer"
 _heading1 'Table of Contents'
 _v "$fromSelfFolder_toc"
