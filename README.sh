@@ -80,6 +80,8 @@ _t 'Safety notices may be included with the consolidated documents. See those fo
 _ _page
 _heading1 'Reference'
 _t ' '
+_heading1 'ACKNOWLEDGEMENT - Repository History'
+_t 'In addition to any stated acknowledgements in the documents here, which may cite contributors or other works, the repository history may also acknowledge authors, contributors, and other works. Normally, explicit citations will nevertheless be added to documents here under an &#39;acknowledgement&#39; or similar heading, unless the documents are of narrow, small, non-research, and/or similar purpose for which such would not be usual apparent practice (eg. a &#39;resume&#39;).'
 _ _page
 _heading1 'Copyright'
 _t '
@@ -257,7 +259,7 @@ _default() {
 	current_deleteScriptLocal="false"
 	[[ ! -e "$scriptLocal" ]] && current_deleteScriptLocal="true"
 	
-	#"$scriptAbsoluteLocation" DOCUMENT > "$scriptAbsoluteLocation".out.txt
+	"$scriptAbsoluteLocation" DOCUMENT > "$scriptAbsoluteLocation".out.txt
 	
 	_scribble_markdown "$@"
 	_scribble_html "$@"

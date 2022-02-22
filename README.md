@@ -141,6 +141,22 @@ _t '
 scriptedIllustrator_markup_uk4uPhB663kVcygT0q --><!-- # --><pre style="margin-top: 0px;margin-bottom: 0px;white-space: pre-wrap;"> 
 <!-- # --></pre><!-- scriptedIllustrator_markup_uk4uPhB663kVcygT0q
 '
+ '_heading1' 'ACKNOWLEDGEMENT - Repository History'
+if false; then true; # -->
+<!-- # --><h1>ACKNOWLEDGEMENT - Repository History</h1>
+<!--
+fi
+_t '
+scriptedIllustrator_markup_uk4uPhB663kVcygT0q --><!-- # --><pre style="margin-top: 0px;margin-bottom: 0px;white-space: pre-wrap;">
+In addition to any stated acknowledgements in the documents here, which may 
+cite contributors or other works, the repository history may also 
+acknowledge authors, contributors, and other works. Normally, explicit 
+citations will nevertheless be added to documents here under an 
+&#39;acknowledgement&#39; or similar heading, unless the documents are of 
+narrow, small, non-research, and/or similar purpose for which such would 
+not be usual apparent practice (eg. a &#39;resume&#39;).
+<!-- # --></pre><!-- scriptedIllustrator_markup_uk4uPhB663kVcygT0q
+'
  '_' '_page'
  '_heading1' 'Copyright'
 if false; then true; # -->
@@ -330,7 +346,7 @@ _default() {
 	current_deleteScriptLocal="false"
 	[[ ! -e "$scriptLocal" ]] && current_deleteScriptLocal="true"
 	
-	#"$scriptAbsoluteLocation" DOCUMENT > "$scriptAbsoluteLocation".out.txt
+	"$scriptAbsoluteLocation" DOCUMENT > "$scriptAbsoluteLocation".out.txt
 	
 	_scribble_markdown "$@"
 	_scribble_html "$@"
