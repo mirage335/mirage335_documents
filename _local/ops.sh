@@ -28,6 +28,9 @@ _recompress_pdf-lowQuality() {
 _consolidate_documents() {
 	_start
 	
+	mkdir -p "$scriptAbsoluteFolder"/_bundle
+	
+	
 	"$scriptAbsoluteFolder"/README.sh
 	
 	"$scriptLib"/universalTechnologySpecificationTextbook/ubiquitous_bash.sh _consolidate_documents

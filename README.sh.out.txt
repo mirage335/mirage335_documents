@@ -33,6 +33,20 @@ _ ACKNOWLEDGEMENT - Repository History _
 
 In addition to any stated acknowledgements in the documents here, which may cite contributors or other works, the repository history may also acknowledge authors, contributors, and other works. Normally, explicit citations will nevertheless be added to documents here under an &#39;acknowledgement&#39; or similar heading, unless the documents are of narrow, small, non-research, and/or similar purpose for which such would not be usual apparent practice (eg. a &#39;resume&#39;).
 
+ '_page'PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+
+
+_ Redistribution and Preservation _
+
+git clone --depth 1 git@github.com:mirage335/mirage335_documents.git
+cd mirage335_documents/
+git submodule update --init --depth 1 --recursive
+
+Usual &#39;git clone --recursive&39; is not recommended if storage or bandwidth are significant concerns, due to git apparently ignoring &#39;shallow&#39; configuration when submodules themselves have submodules.
+
+https://stackoverflow.com/questions/2144406/how-to-make-shallow-git-submodules
+	&#39;git-fetch allows to fetch arbitrary sha1, so as a workaround you can run a fetch after the recursive clone by using "git submodule update" as that will use fetches after the initial clone&#39;
+
 _ Copyright _
 
 This file is part of mirage335_documents.
