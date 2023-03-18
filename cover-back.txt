@@ -1,0 +1,19 @@
+
+Copyright (C) 2021,2022- by mirage335, AGPLv3 license, for all content unless explicitly stated otherwise by author in writing.
+
+
+Copyright (C) 2021,2022- by mirage335, AGPLv3 license for the uTST section nominally spanning pages 1-191, excepting any content for which other copyright licensing is explicitly demarcated in the text here or underlying source code.
+
+Copyright (C) 2021,2022- by mirage335, AGPLv3 license for the mirage335-recruiting section nominally spanning pages 239-265 .
+
+
+
+Other copyright licensing terms may be availabe upon request. Author's Standard Operating Procedures for Copyleft are nominally stated at page 252 . Author mirage335 respects the reservations of such organizations as 'Google' regarding AGPLv3, and is absolutely willing to make reasonable accommodations.
+
+
+
+
+
+
+Self-modifying combiation of HTML and BASH shell script 'scriptedIllustrator' derived from 'ubiquitous bash' consolidated this book with calculations, etc.
+
